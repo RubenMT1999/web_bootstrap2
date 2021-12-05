@@ -11,10 +11,12 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top opacity-50 altoheader">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top  altoheader">
         <div class="container-fluid">
           
-          <a class="navbar-brand logoheader" href="#">Navbar</a>
+          <a class="navbar-brand logoheader" href="#">
+            <img src="logo_header.JPG" alt="" width="200" height="100">
+          </a>
         
 
           <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,14 +26,14 @@
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav   mb-2 mb-lg-0">
               <li class="nav-item linkuno">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active fs-5 fuente fw-bolder" aria-current="page" href="#">Sobre Nosotros</a>
               </li>
               <li class="nav-item linkdos">
-                <a class="nav-link active" href="#">Link</a>
+                <a class="nav-link active fs-5 fuente fw-bolder" href="#">Menús</a>
               </li>
               <li class="nav-item dropdown linktres">
-                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                <a class="nav-link dropdown-toggle active fs-5 fuente fw-bolder" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Reservas
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -41,13 +43,54 @@
                 </ul>
               </li>
               <li class="nav-item linkcuatro">
-                <a class="nav-link active">Disabled</a>
+                <a class="nav-link active fs-5 fuente fw-bolder">Contacto</a>
               </li>
             </ul>
             
           </div>
         </div>
       </nav>
+
+
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide mt-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="imagen_2_index.png" class="d-block w-100" alt="..." height="600">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="imagen_1_index.png" class="d-block w-100" alt="..." height="600">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
 
 
