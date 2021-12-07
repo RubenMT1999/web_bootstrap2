@@ -46,7 +46,7 @@
 
 
 .fuente{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: sans-serif;
 }
 
 .color{
@@ -60,4 +60,11 @@
 .sectionfuentedos{
     font-family: sans-serif;
     color: #939393;
+}
+
+@media (max-width: 992px) {
+    .columnasindex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
