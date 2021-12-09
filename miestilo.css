@@ -76,3 +76,11 @@
     }
 }
 
+
+/*---------------Pizzas----------------------*/
+
+.fondopizzas{
+    background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?cs=srgb&dl=pexels-henry-%26-co-1939485.jpg&fm=jpg);
+    background-size: cover;
+}
+
