@@ -102,3 +102,15 @@
     font-family: fantasy;
     font-style: oblique;
 }
+
+.tituloreserva{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 80px;
+}
+
+.subtituloreserva{
+    color: #BFBFBF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 19px;
+}
